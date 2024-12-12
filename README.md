@@ -23,7 +23,7 @@ This project implements a TCP-based chat server in C, allowing communication bet
 
 2. Compile the server and client programs:
    ```bash
-   gcc -pthread -o server daytimetcpserver.c
+   gcc -pthread -o server server.c
    gcc -o client client.c
    ```
 
@@ -94,17 +94,12 @@ Hello from Client 2!
 Message from other client: Hello from Client 1!
 ```
 
-## Known Issues
-- The server currently supports only two clients at a time. Future enhancements can include scaling to support multiple clients.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
 
-## Authors
-- **Your Name** (Add your name and contact information here)
+
 
 ## Acknowledgments
 - Inspired by basic TCP socket programming examples.
